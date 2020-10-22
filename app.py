@@ -36,8 +36,16 @@ while True:
       feelings_list.append("sad")
       encouragement_list.append("talk to your friends")
       counter += 1  
-      
-    if counter == 0:
+     if each_word == "proud":
+      feelings_list.append("proud")
+      encouragement_list.append("Great self-esteem!")
+      counter += 1
+     if each_word == "disappointed":
+      feelings_list.append("disappointed")
+      encouragement_list.append("It's okay. Life is not all about results!")
+      counter += 1
+   
+  if counter == 0:
 
       output = "Sorry I don't really understand. Please use different words?"
 
