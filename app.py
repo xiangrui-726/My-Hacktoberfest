@@ -27,6 +27,10 @@ while True:
       feelings_list.append("relieved")
       encouragement_list.append("Relax after the stressful examinations")
       counter += 1
+    if each_word == "happy":
+      feelings_list.append("happy")
+      encouragement_list.append("Relax after the stressful examinations")
+      counter += 1
 
     if each_word == "dead tired":
       feelings_list.append("dead tired")
